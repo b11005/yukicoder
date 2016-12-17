@@ -1,0 +1,16 @@
+#/usr/bin/env python3
+# -*- coding; utf-8 -*-
+
+"""
+yukicoder.me/problems/no/46
+"""
+
+def main():
+	a, b = map(int, input().split())
+	if b % a == 0:
+		print(b//a)
+	else:
+		print(b//a + 1)
+
+if __name__ == '__main__':
+	main()
